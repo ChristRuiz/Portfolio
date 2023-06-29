@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter"!important;
+}
+
+.big-shadow {
+  box-shadow: 4px 2px 1px 4px #9aabda49;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 0 #000000;
+}
+
+.text-white-75 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.profile {
+  /* Estilos para anchos de pantalla mayores o iguales a 768px */
+  @media screen and (min-width: 768px) {
+    width: 80%;
+  }
+
+  /* Estilos para anchos de pantalla menores a 768px */
+  @media screen and (max-width: 767px) {
+    width: 50%;
+  }
+}
+
+
+div .bg-section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div .bg-section2{
+  background-color: #966f43fb;
+}
+
+
