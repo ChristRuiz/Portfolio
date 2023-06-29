@@ -31,12 +31,12 @@ body {
 .long-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
-    font-size: calc(1rem + 0.8vw) !important;
+    font-size: calc(1rem + 1vw) !important;
   }
   
   /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
   @media screen and (min-width: 361px) and (max-width: 767px) {
-    font-size: calc(1rem + 0.5vw) !important;
+    font-size: calc(1rem + 0.7vw) !important;
   }
 
   /* Estilos adicionales para menores o iguales de 360px */
@@ -48,12 +48,12 @@ body {
 .medium-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
-    font-size: calc(0.7rem + 0.8vw) !important;
+    font-size: calc(0.7rem + 1vw) !important;
   }
   
   /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
   @media screen and (min-width: 361px) and (max-width: 767px) {
-    font-size: calc(0.7rem + 0.5vw) !important;
+    font-size: calc(0.7rem + 0.7vw) !important;
   }
   
   /* Estilos adicionales para menores o iguales de 360px */
@@ -65,12 +65,12 @@ body {
 .small-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
-    font-size: calc(0.5rem + 0.8vw) !important;
+    font-size: calc(0.5rem + 1vw) !important;
   }
   
   /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
   @media screen and (min-width: 361px) and (max-width: 767px) {
-    font-size: calc(0.5rem + 0.5vw) !important;
+    font-size: calc(0.5rem + 0.7vw) !important;
   }
   
   /* Estilos adicionales para menores o iguales de 360px */
