@@ -28,36 +28,53 @@ body {
   }
 }
 
-.long-text{
+.long-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
     font-size: calc(1rem + 0.6vw) !important;
   }
   
-  /* Estilos para anchos de pantalla menores a 768px */
-  @media screen and (max-width: 767px) {
+  /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
+  @media screen and (min-width: 361px) and (max-width: 767px) {
+    font-size: calc(1rem + 0.3vw) !important;
+  }
+
+  /* Estilos adicionales para menores o iguales de 360px */
+  @media screen and (max-width: 360px) {
     font-size: 1rem !important;
   }
 }
-.medium-text{
+
+.medium-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
     font-size: calc(0.7rem + 0.6vw) !important;
   }
   
-  /* Estilos para anchos de pantalla menores a 768px */
-  @media screen and (max-width: 767px) {
+  /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
+  @media screen and (min-width: 361px) and (max-width: 767px) {
+    font-size: calc(0.7rem + 0.3vw) !important;
+  }
+  
+  /* Estilos adicionales para menores o iguales de 360px */
+  @media screen and (max-width: 360px) {
     font-size: 0.7rem !important;
   }
 }
-.small-text{
+
+.small-text {
   /* Estilos para anchos de pantalla mayores o iguales a 768px */
   @media screen and (min-width: 768px) {
     font-size: calc(0.5rem + 0.6vw) !important;
   }
   
-  /* Estilos para anchos de pantalla menores a 768px */
-  @media screen and (max-width: 767px) {
+  /* Estilos adicionales para anchos de pantalla mayores a 361px y menores o iguales a 767px */
+  @media screen and (min-width: 361px) and (max-width: 767px) {
+    font-size: calc(0.5rem + 0.3vw) !important;
+  }
+  
+  /* Estilos adicionales para menores o iguales de 360px */
+  @media screen and (max-width: 360px) {
     font-size: 0.5rem !important;
   }
 }
