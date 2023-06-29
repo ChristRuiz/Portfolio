@@ -24,7 +24,41 @@ body {
 
   /* Estilos para anchos de pantalla menores a 768px */
   @media screen and (max-width: 767px) {
-    width: 50%;
+    width: 35%;
+  }
+}
+
+.long-text{
+  /* Estilos para anchos de pantalla mayores o iguales a 768px */
+  @media screen and (min-width: 768px) {
+    font-size: calc(1rem + 0.6vw) !important;
+  }
+  
+  /* Estilos para anchos de pantalla menores a 768px */
+  @media screen and (max-width: 767px) {
+    font-size: 1rem !important;
+  }
+}
+.medium-text{
+  /* Estilos para anchos de pantalla mayores o iguales a 768px */
+  @media screen and (min-width: 768px) {
+    font-size: calc(0.7rem + 0.6vw) !important;
+  }
+  
+  /* Estilos para anchos de pantalla menores a 768px */
+  @media screen and (max-width: 767px) {
+    font-size: 0.7rem !important;
+  }
+}
+.small-text{
+  /* Estilos para anchos de pantalla mayores o iguales a 768px */
+  @media screen and (min-width: 768px) {
+    font-size: calc(0.5rem + 0.6vw) !important;
+  }
+  
+  /* Estilos para anchos de pantalla menores a 768px */
+  @media screen and (max-width: 767px) {
+    font-size: 0.5rem !important;
   }
 }
 
